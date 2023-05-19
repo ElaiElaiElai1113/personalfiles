@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Josefin+Sans&family=Maven+Pro:wght@400;600&family=Montserrat:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    
+
+}    
+
+body {
+    background-image: url(./images/pinkbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.head {
+    height: 100vh;
+    width: 100%;
+
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.lovegf {
+    margin: 45px; 
+    background-image: linear-gradient(30deg, #008080, #7A5C5B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: linear;
+    background-image: linear-gradient(30deg, #7A5C5B, #008080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+nav ul li a:hover{
+    color: #7a5c5b;
+    background-image: linear-gradient(30deg, #008080, #7A5C5B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .4s;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.clickme {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
